@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+  background-color: darkslategrey;
+}
+
+main {
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  
+}
+
+h1 {
+  font-size: 4em;
+  text-align: center;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	animation-name: dropin;
+	animation-duration: 1s;
+	animation-timing-function: ease-out;
+}
+
+section {
+  background-color: antiquewhite;
+  padding: 1%;
+  border: thin black solid;
+}
+
+section img {
+  width: 30%;
+  margin-left: 35%;
+}
+
+#q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10, #q11, #q12, #q13, #q14, #q15 {
+  display: none;
+}
+
+#results {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: antiquewhite;
+  font-size: 2em;
+  text-align: center;
+  padding: 1%;
+}
+
+h2 {
+  font-size: 2em;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+  text-align: center;
+}
+
+button {
+  font-size: 1.5em;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 100%;
+  padding: 1%;
+}
+
+button:hover {
+  background-color: rgba(145, 236, 218, 0.64);
+}
+
+button:active {
+  background-color: antiquewhite;
+  color: antiquewhite;
+}
+
+@keyframes dropin {
+  0% {
+    transform: translateY(-200%);
+  }
+
+  75% {
+    transform: translateY(50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
